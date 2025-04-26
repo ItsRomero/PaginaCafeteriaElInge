@@ -22,14 +22,11 @@ Este es un sitio web para la **Cafetería El Inge**, el lugar perfecto para disf
 - `styles.css`: Hoja de estilos que define el diseño visual de la página.
 - `Paginas/`: Carpeta que contiene páginas adicionales como "MocaHelado.html", "Expreso.html", etc.
 - `img/`: Carpeta con todas las imágenes utilizadas en el sitio web (productos, galería, blogs, etc.).
-- `scripts.js`: (Si aplica) Archivo para la lógica interactiva de la página (como el carrito de compras).
 
 ## Requisitos 🛠️
 
 1. **HTML5** para la estructura básica del sitio web.
 2. **CSS3** para el estilo y la maquetación de la página.
-3. **JavaScript** para la interactividad (como la funcionalidad de carrito y la búsqueda de productos).
-4. **FontAwesome**: Biblioteca de íconos para elementos visuales como botones de carrito y redes sociales.
 
 ## Instalación 🚀
 
