@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog - Cafetería El Inge</title>
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #efebe9, #d7ccc8);
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4e342e;
+      margin-bottom: 2rem;
+    }
+
+    .blog-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .blog-card {
+      background: #fffaf6;
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-date {
+      font-size: 0.9rem;
+      color: #8d6e63;
+      margin-bottom: 0.5rem;
+    }
+
+    .blog-title {
+      font-size: 1.2rem;
+      color: #5d4037;
+      margin: 0.3rem 0;
+    }
+
+    .blog-text {
+      font-size: 1rem;
+      color: #4e342e;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6d4c41;
+    }
+  </style>
+</head>
+<body>
+  <h1>📖 Blog de Cafetería El Inge</h1>
+
+  <div class="blog-container">
+    <div class="blog-card">
+      <div class="blog-date">25 de Noviembre, 2024</div>
+      <div class="blog-title">¡Apertura Oficial!</div>
+      <div class="blog-text">Inauguramos nuestra cafetería con música en vivo, degustaciones y muchas sonrisas. ¡Gracias a todos los que vinieron!</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">25 de Diciembre, 2024</div>
+      <div class="blog-title">Navidad con café</div>
+      <div class="blog-text">Ofrecimos bebidas navideñas como el latte de jengibre y realizamos un intercambio de postales entre clientes. 🎄</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">25 de Enero, 2025</div>
+      <div class="blog-title">Nuestro primer mes</div>
+      <div class="blog-text">Cerramos enero con más de 500 tazas servidas. ¡Gracias por apoyar lo local!</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">25 de Febrero, 2025</div>
+      <div class="blog-title">Tarde de poesía</div>
+      <div class="blog-text">Organizamos nuestra primera noche cultural con lectura de poesía, café gratis para lectores y velas. 🎤☕</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">25 de Marzo, 2025</div>
+      <div class="blog-title">Semana del Espresso</div>
+      <div class="blog-text">Dimos descuentos especiales en todas nuestras bebidas de espresso. ¡El favorito fue el Capuchino!</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">20 de Abril, 2025</div>
+      <div class="blog-title">Taller de Barismo</div>
+      <div class="blog-text">Invitamos a nuestros clientes a preparar su propio café con nuestros baristas. ¡Un éxito total!</div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-date">25 de Abril, 2025</div>
+      <div class="blog-title">Cumplimos 5 meses</div>
+      <div class="blog-text">Celebramos medio año con una fiesta de café, postres caseros y ¡una rifa sorpresa para los más fieles!</div>
+    </div>
+  </div>
+
+  <div class="footer">El Inge · Momentos que se saborean ☕</div>
+</body>
+</html>
